@@ -35,7 +35,7 @@
   position: absolute;
 }
 
-.header-menu a:hover::after {
+.header-menu a:hover:after {
   width: 100%;
 }
 
@@ -50,10 +50,9 @@
   }
   .header-menu a:hover {
     background-color: var(--cor-10);
-}
-
-.header a::after {
-  display: none;
+  }
+  .header a:after {
+    display: none;
   }
 }
 
@@ -61,8 +60,7 @@
   .header-menu {
     gap: 12px;
   }
-
-    .header-menu a {
+  .header-menu a {
     padding: 8px 12px;
     font-size: 14px;
   }
